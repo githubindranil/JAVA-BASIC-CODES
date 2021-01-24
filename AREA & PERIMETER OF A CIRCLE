@@ -1,0 +1,22 @@
+import java.util.*;
+public class JavaApplication24 {
+
+   
+    public static void main(String[] args) {
+       
+        Scanner sc=new Scanner(System.in);
+        float r;
+        double p,a;
+        System.out.println("Enter the radius of the circle");
+        r=sc.nextFloat();
+        p=(2*Math.PI*r);
+       
+        a=(Math.PI*r*r);
+       
+        System.out.println("Perimeter is"+"="+p);
+        System.out.println("Area is"+"="+a);
+        
+        
+    }
+    
+}
