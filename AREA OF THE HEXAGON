@@ -1,0 +1,15 @@
+import java.util.*;
+public class JavaApplication30 {
+
+    public static void main(String[] args) {
+       
+        Scanner sc=new Scanner(System.in);
+        int s;
+        double a;
+        System.out.println("Enter the number of side of Hexagon:");
+        s=sc.nextInt();
+        a=(6*(s*s))/(4*Math.tan(Math.PI/6));
+        System.out.println("The area of the hexagon is"+a);
+    }
+    
+}
