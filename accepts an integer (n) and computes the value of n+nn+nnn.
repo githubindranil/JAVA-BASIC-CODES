@@ -1,0 +1,13 @@
+import java.util.*;
+public class JavaApplication36 {
+
+    public static void main(String[] args) {
+        
+        int num;
+        Scanner sc=new Scanner(System.in);
+        num=sc.nextInt();
+        System.out.println("Input number:"+num);
+        System.out.println(num+"+"+num+""+num+"+"+num+""+num+""+num);
+    }
+    
+}
