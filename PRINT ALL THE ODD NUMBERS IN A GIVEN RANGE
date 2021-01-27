@@ -1,0 +1,19 @@
+import java.util.*;
+public class JavaApplication39 {
+
+    
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int r1,r2,num;
+        System.out.println("Enter the range start from:");
+        r1=sc.nextInt();
+        System.out.println("Enter the range end at:");
+        r2=sc.nextInt();
+        for(num=r1;num<=r2;num++)
+        {
+            if(num%2!=0)
+            System.out.println(num);
+        }
+    }
+    
+}
