@@ -1,0 +1,10 @@
+public class JavaApplication35 {
+
+    
+    public static void main(String[] args) {
+       
+        char c='Z';
+        System.out.println("The ASCII value of Z is:"+(int)c);
+    }
+    
+}
